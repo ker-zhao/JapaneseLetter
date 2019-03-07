@@ -24,7 +24,7 @@ chinese_char = """\
 start = 0
 end = 5
 
-# THe follow line control hiragana or katakana.
+# THe follow line control use hiragana or katakana.
 source = jt1
 
 order_list = list(range(start, end))
