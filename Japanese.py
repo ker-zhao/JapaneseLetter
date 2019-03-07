@@ -23,11 +23,15 @@ chinese_char = """\
 # The follow two lines control the letter range.
 start = 0
 end = 5
+
+# THe follow line control hiragana or katakana.
+source = jt1
+
 order_list = list(range(start, end))
 random.shuffle(order_list)
 
 for i in order_list:
-    source = jt1
+
     current_char = source[i]
     input_data = input(" " + current_char + " : ").strip()
     try:
